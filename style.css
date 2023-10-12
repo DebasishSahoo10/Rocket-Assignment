@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&display=swap");
+body {
+  width: 100vw;
+  height: 98vh;
+  overflow: hidden;
+  background-color: #2f1893;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  width: 70%;
+  height: 95%;
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-container {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links-container {
+  display: flex;
+  max-width: max-content;
+  gap: 30px;
+  color: white;
+  align-items: center;
+}
+.nav-links-container > p {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.nav-links-container > p:first-of-type {
+  color: rgba(255, 255, 255, 0.3);
+}
+.nav-links-container > button {
+  background-color: rgba(233, 58, 125, 1);
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 20px;
+  border: 0px;
+  height: 38px;
+  padding: 0px 15px;
+}
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.25px;
+  color: white;
+}
+.hero-container {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "DM Sans", sans-serif;
+}
+.hero-text-container {
+  width: 500px;
+  color: white;
+}
+.hero-text-container > h1 {
+  font-size: 58px;
+  margin-top: 25px;
+}
+.hero-text-container > p {
+  width: 340px;
+  margin-bottom: 50px;
+}
+.hero-text-container > button {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  border-radius: 20px;
+  border: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0px 25px;
+  background-color: rgba(233, 58, 125, 1);
+  height: 40px;
+  line-height: 26px;
+  /* letter-spacing: 1px; */
+}
+.hero-login-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 450px;
+  border-radius: 10px;
+  font-family: "DM Sans", sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+.hero-login-container > h3 {
+  color: rgba(30, 14, 98, 1);
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  line-height: 52px;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.hero-login-container > p {
+  color: rgba(21, 20, 57, 0.4);
+}
+.hero-login-container > p > a {
+  text-decoration: none;
+  color: rgba(37, 218, 197, 1);
+}
+.hero-login-container button {
+  width: 280px;
+  padding: 10px 15px;
+  border: 0;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 25px;
+  color: white;
+  font-size: 15px;
+  background-color: rgba(29, 161, 242, 1);
+  margin-bottom: 10px;
+}
+.hero-login-container button:first-of-type {
+  background-color: rgba(72, 43, 231, 1);
+  margin-bottom: 0;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.input-container > input {
+  width: 260px;
+  border: 2px solid rgba(235, 234, 237, 1);
+  border-radius: 25px;
+  font-family: "DM Sans", sans-serif;
+  height: 45px;
+  padding: 0px 15px;
+}
+.input-container > input::placeholder {
+  color: rgba(21, 20, 57, 0.5);
+  font-size: 16px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 285px;
+}
+.checkbox-container p {
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 14px;
+  margin-left: 8px;
+}
+.or-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.or-container p {
+  margin: 0 5px;
+  color: rgba(21, 20, 57, 0.3);
+}
+hr {
+  border: none;
+  height: 1px;
+  width: 125px;
+  margin: 0;
+  background-color: rgba(148, 148, 153, 0.2);
+}
+input[type="checkbox"] {
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
+  /* appearance: none; */
+  border: none;
+  background-color: aqua;
+  width: 15px;
+  height: 15px;
+}
